@@ -1,0 +1,12 @@
+#include "lily58hw.dtsi"
+
+&kscan0 {
+    col-gpios
+        = <&gpio0 2  GPIO_ACTIVE_HIGH>   /* col 0 outer (Tab/Shift) */
+        , <&gpio1 15 GPIO_ACTIVE_HIGH>   /* col 1 Q A Z  + outer thumb */
+        , <&gpio1 13 GPIO_ACTIVE_HIGH>   /* col 2 W S X  + thumb */
+        , <&gpio1 11 GPIO_ACTIVE_HIGH>   /* col 3 E D C  + thumb */
+        , <&gpio0 10 GPIO_ACTIVE_HIGH>   /* col 4 R F V  + inner (tilted) thumb */
+        , <&gpio0 9  GPIO_ACTIVE_HIGH>   /* col 5 T G B  + inner key */
+        ;
+};

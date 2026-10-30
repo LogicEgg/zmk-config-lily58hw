@@ -1,0 +1,11 @@
+file_format: "1"
+id: lily58hw
+name: Lily58 Handwired
+type: shield
+url: https://github.com/kata0510/Lily58
+requires: [pro_micro]
+features:
+  - keys
+siblings:
+  - lily58hw_left
+  - lily58hw_right
